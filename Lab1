@@ -7,10 +7,10 @@ enum CihazTuru
 
 class Cihaz
 {
-    public int Kimlik;
-    public string Ad;
-    public CihazTuru Tur;
-    public bool AcikMi;
+    public int Kimlik { get; set; }
+    public string Ad { get; set; }
+    public CihazTuru Tur { get; set; }
+    public bool AcikMi { get; set; } = false;
 
     public Cihaz(int Kimlik, string Ad, CihazTuru Tur)
     {
