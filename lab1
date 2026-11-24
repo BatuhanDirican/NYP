@@ -1,0 +1,38 @@
+using System;
+using System.Collections.Generic;
+
+enum CihazTuru
+{
+}
+
+class Cihaz
+{
+    public int Kimlik;
+    public string Ad;
+    public CihazTuru Tur;
+    public bool AcikMi;
+
+    public Cihaz(int Kimlik, string Ad, CihazTuru Tur)
+    {
+    }
+
+    public void Ac()
+    {
+    }
+
+    public void Kapat()
+    {
+    }
+
+    public void BilgileriGoster()
+    {
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        List<Cihaz> cihazlar = new List<Cihaz>();
+    }
+}
